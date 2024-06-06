@@ -1,55 +1,3 @@
-<style>
-  header1 {
-    margin-top: 0.5rem;
-    font-family: "Calibri", sans-serif;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-
-  header2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    font-family: "Calibri", sans-serif;
-    font-size: 1.75rem;
-  }
-
-  header3 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    font-family: "Calibri", sans-serif;
-    font-size: 1.5rem;
-  }
-
-  body-text {
-    font-family: "Calibri", sans-serif;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-
-  table {
-    font-family: "Calibri", sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  td,
-  th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-
-  td:first-child {
-  font-weight: bold;
-  width: 25%;
-}
-
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-
-</style>
-
 <div align="center">
     <a href="https://github.com/honkita">
         <img title="GitHub" src="https://raw.githubusercontent.com/honkita/MD-Links/main/Pixel_GitHub.svg">
@@ -62,25 +10,21 @@
     </a>
 </div>
 
-<header1> Pixel Buttons for README </header1>
+<h1> Pixel Buttons for README </h1>
 
-<header2> How to use </header2>
+<h2> How to use </h2>
 
-<body-text>
 Replace the **NAME_OF_BUTTON** with the button name and **LINK** that when the button is pressed, redirects to the site/location.
-</body-text>
 
-<header3> Markdown </header3>
+<h3> Markdown </h3>
 
-<body-text>
 Note that the default height of a button is 32px x 32px. To change the width/height, refer to the HTML code.
-<body-text>
 
 <pre>
 [![](https://raw.githubusercontent.com/honkita/PixelButtons/main/NAME_OF_BUTTON.svg)](https://github.com/honkita)
 </pre>
 
-<header3> HTML </header3>
+<h3> HTML </h3>
 
 <pre>
   &lta href=LINK&gt
@@ -105,7 +49,7 @@ Note that the button is an \<img\> tag wrapped in an \<a\> tag. Below are some r
   </tr>
 </table>
 
-<header2> Button types </header2>
+<h2> Button types </h2>
 
 <table>
   <tr>
